@@ -26,16 +26,6 @@ Antes de começar, certifique-se de que o seguinte está instalado em sua máqui
    uv init
    ```
 
-3. Ative o ambiente:
-   ```bash
-   uv activate
-   ```
-
-4. Instale as dependências do projeto:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
 ## Uso
 
 ### Executando o projeto
@@ -50,18 +40,11 @@ Certifique-se de que o arquivo `main.py` contém o código principal para intera
 
 ### Scripts úteis
 
-- **Reinstalar dependências:**
-  ```bash
-  uv install
-  ```
 - **Exportar dependências para requirements:**
   ```bash
-  uv freeze > requirements.txt
+  uv pip freeze > requirements.txt
   ```
-- **Desativar o ambiente virtual:**
-  ```bash
-  uv deactivate
-  ```
+
 
 ## Contribuindo
 
