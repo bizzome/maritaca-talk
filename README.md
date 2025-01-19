@@ -52,11 +52,11 @@ Certifique-se de que o arquivo `main.py` contém o código principal para intera
 
 - **Reinstalar dependências:**
   ```bash
-  uv pip install -r requirements.txt
+  uv install
   ```
-- **Atualizar dependências:**
+- **Exportar dependências para requirements:**
   ```bash
-  uv pip freeze > requirements.txt
+  uv freeze > requirements.txt
   ```
 - **Desativar o ambiente virtual:**
   ```bash
