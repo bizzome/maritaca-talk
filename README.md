@@ -42,7 +42,7 @@ Certifique-se de que o arquivo `main.py` contém o código principal para intera
 
 - **Exportar dependências para requirements:**
   ```bash
-  uv pip freeze > requirements.txt
+  uv pip compile pyproject.toml -o requirements.txt
   ```
 
 
